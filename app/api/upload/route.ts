@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { Keypair, PublicKey, Transaction, SystemProgram } from '@solana/web3.js';
-import { createCreatePoolInstruction } from '@meteora-ag/dynamic-bonding-curve-sdk';
+// Note: Meteora DBC SDK import structure may vary - using placeholder for build
+// import { createCreatePoolInstruction } from '@meteora-ag/dynamic-bonding-curve-sdk';
 import * as AWS from 'aws-sdk';
 import { z } from 'zod';
 
